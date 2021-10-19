@@ -16,11 +16,18 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "declaration": false,
+    "experimentalDecorators": true,
+		"downlevelIteration": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+		"noEmit": true,
+    "sourceMap": true,
+	
   },
   "include": [
     "src"
   ]
 }
+
+
